@@ -13,5 +13,6 @@ if __name__ == '__main__':
     a = int(sys.argv[1])
     b = int(sys.argv[2])
     print "Summing %d and %d" % (a, b),
-    c = sum(a, b)
+    #c = sum(a, b)
+    c = -1
     print " to get %d\n" % c
