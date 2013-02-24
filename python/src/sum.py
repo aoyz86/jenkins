@@ -12,6 +12,6 @@ def sum(a, b):
 if __name__ == '__main__':
     a = int(sys.argv[1])
     b = int(sys.argv[2])
-    print "Summing %d and %d" % (a, b),
+    print "Summing values %d and %d" % (a, b),
     c = sum(a, b)
     print " to get %d\n" % c
