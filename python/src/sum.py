@@ -7,12 +7,12 @@ import sys
 def sum(a, b):
     assert a >= 0
     assert b >= 0
-    return a + b
+    #return a + b
+    return -1
 
 if __name__ == '__main__':
     a = int(sys.argv[1])
     b = int(sys.argv[2])
     print "Summing %d and %d" % (a, b),
-    #c = sum(a, b)
-    c = -1
+    c = sum(a, b)
     print " to get %d\n" % c
