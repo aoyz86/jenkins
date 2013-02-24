@@ -7,8 +7,7 @@ import sys
 def sum(a, b):
     assert a >= 0
     assert b >= 0
-    #return a + b
-    return -1
+    return a + b
 
 if __name__ == '__main__':
     a = int(sys.argv[1])
